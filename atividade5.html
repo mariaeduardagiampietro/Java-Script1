@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+    <script>
+       var lista = [10, 20, 30, 40, 50]
+        var nmenor = lista[0]
+        var nmaior = lista[0]
+        for (numero in lista){
+            if(lista[numero] < nmenor){
+                nmenor = lista[numero]
+            }
+            if(lista[numero] > nmaior){
+                nmaior = lista[numero]
+            }
+        }
+        alert("O maior valor é igual a: " + nmaior)
+        alert("O menor valor é gual a: " + nmenor)
+    </script>
+</body>
+</html>
